@@ -1,0 +1,86 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E357A0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #fab569;
+  }
+
+  .active {
+    background-color: #F7962C;
+  }
+
+  .Mobile{
+    display: none;
+  }
+
+  input[type=text] {
+    width: 10rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=text] {
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 100%;
+  }
+
+  .FormMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .FormText{
+    font-size: 2rem;
+    font-family: 'Belanosima', sans-serif;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+  @media only screen and (max-width:768px){
+
+    .header{
+        /* display: none; */
+        font-size: 9px;
+    }
+    
+    .Desktop{
+        display: none;
+    }
+
+    .Mobile{
+        display:inline
+    }
+
+   
+
+  }
